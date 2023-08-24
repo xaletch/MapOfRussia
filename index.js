@@ -17,7 +17,7 @@ $('path').hover(function(e) {
 
   $(this).css('fill', '#B9CDEE');
   $('path').not(this).css('fill', '#eaeaf4');
-  $('.indicator').css({'top': e.pageY, 'left': e.pageX + 8}).show(); // устанавливаем позицию и отображаем элемент с классом "indicator" рядом с курсором мыши.
+  $('.indicator').css({'top': e.pageY - $('.container').offset().top, 'left': e.pageX - $('.container').offset().left + 8}).show(); // устанавливаем позицию и отображаем элемент с классом "indicator" рядом с курсором мыши.
 }, function() {
   $('.indicator').html('');
   $('.indicator').hide();
