@@ -1,3 +1,8 @@
+.container {
+  max-width: 1123px;
+  margin: 0 auto;
+}
+
 svg{
   width:100%;
 }
@@ -12,8 +17,8 @@ path {
   display: inline;
   border: 1px solid rgba(0,0,0,0.6);
   color:#111;
-  padding: 10px 15px;
-  font: 16px Arial;
+  padding: 6px 10px;
+  font: 14px Arial;
   border-radius:5px;
   
   text-align: center;
@@ -25,6 +30,4 @@ path {
 
 .clear{clear:both}
 .name{float:left;margin-right:30px;}
-/*.flag{position:absolute;top:10px;right:20px;border:3px solid #f7ffe8;border-radius:3px;
-  }*/
 .capital{clear:both;}
