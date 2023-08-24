@@ -1,6 +1,12 @@
+body {
+  margin: 0;
+  padding: 70px 0;
+}
+
 .container {
   max-width: 1123px;
   margin: 0 auto;
+  padding: 0 20px;
   position: relative;
 }
 
@@ -17,6 +23,7 @@ path {
   position: absolute;
   display: inline;
   border: 1px solid rgba(0,0,0,0.6);
+  background: #fff;
   color:#111;
   padding: 6px 10px;
   font: 14px Arial;
